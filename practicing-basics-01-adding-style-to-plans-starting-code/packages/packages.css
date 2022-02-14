@@ -1,0 +1,47 @@
+.main {
+  padding-top: 36px;
+}
+
+.plans {
+  margin-bottom: 12px;
+  border: solid 3px #0e4f1f;
+  width: 80%;
+  padding: 18px;
+}
+
+.plan--plus {
+  background: rgba(45, 223, 92, 0.3);
+}
+
+.plan--free {
+  background: rgba(25, 184, 76, 0.2);
+}
+
+.plan--premium {
+  background: rgba(14, 79, 31, 1.0);
+}
+
+.plans a {
+  text-decoration: none;
+}
+
+.plan__title {
+  color: black;
+  font-size: 22px;
+}
+
+.plan__title--premium {
+  color: white;
+}
+
+.plan__heading {
+  color: #858585;
+  font-size: 18px;
+}
+
+.plan__description {
+  color: #0e4f1f;
+  border: solid 1px #0e4f1f;
+  padding: 18px;
+  background: white;
+}
