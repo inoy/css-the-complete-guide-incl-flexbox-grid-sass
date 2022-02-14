@@ -1,12 +1,19 @@
-.main {
-  padding-top: 36px;
+main {
+  padding-top: 32px;
 }
 
-.plans {
-  margin-bottom: 12px;
-  border: solid 3px #0e4f1f;
+.package {
   width: 80%;
-  padding: 18px;
+  margin: 16px 0;
+  border: 4px solid #0e4f1f;
+  border-left: none;
+}
+
+.package a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
 }
 
 .plan--plus {
@@ -19,10 +26,6 @@
 
 .plan--premium {
   background: rgba(14, 79, 31, 1.0);
-}
-
-.plans a {
-  text-decoration: none;
 }
 
 .plan__title {
