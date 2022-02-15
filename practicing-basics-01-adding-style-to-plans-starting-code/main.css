@@ -39,7 +39,7 @@
   border-radius: 4px;
 }
 
-.plan__title {
+.package__title {
   color: #0e4f1f;
 }
 
@@ -47,7 +47,7 @@
   color: #858585;
 }
 
-.plan--highlighted .plan__title {
+.plan--highlighted .package__title {
   color: white;
 }
 
