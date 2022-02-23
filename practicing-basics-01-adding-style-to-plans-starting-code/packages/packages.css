@@ -40,12 +40,20 @@ main {
   background: white;
 }
 
+.clearfix {
+  clear: both;
+}
+
 #plus {
   background: rgba(45, 223, 92, 0.3);
 }
 
 #free {
   background: rgba(25, 184, 76, 0.2);
+  float: right;
+  border-right: none;
+  border-left: 4px solid #0e4f1f;
+  text-align: right;
 }
 
 #premium {
