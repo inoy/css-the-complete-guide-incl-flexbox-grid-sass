@@ -14,7 +14,10 @@ const closeModal = () => {
 
 backdrop.addEventListener('click', () => {
   mobileNav.classList.remove('open');
-  closeModal();
+  backdrop.classList.remove('open');
+  if (modal) {
+    modal.classList.remove('open');
+  }
 });
 
 const selectPlanButtons = [...document.getElementsByClassName('plan')]
@@ -24,7 +27,9 @@ selectPlanButtons.forEach(selectPlanButton => {
 });
 
 const modalActionNegativeButton = document.getElementsByClassName('modal__action--negative')[0];
-modalActionNegativeButton.addEventListener('click', closeModal);
+if (modalActionNegativeButton) {
+  modalActionNegativeButton.addEventListener('click', closeModal);
+}
 
 const toggleButton = document.getElementsByClassName('toggle-button')[0];
 toggleButton.addEventListener('click', () => {
