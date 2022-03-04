@@ -109,8 +109,14 @@
 
 #key-features {
   background: #ff1b68;
-  margin-top: 5rem;
+  margin-top: 1.5rem;
   padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  #key-features {
+    margin-top: 5rem;
+  }
 }
 
 #key-features .section-title {
