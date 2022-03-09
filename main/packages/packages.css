@@ -68,6 +68,7 @@ main {
   font-family: "AnonymousPro", "Roboto", sans-serif;
   font-weight: bold;
   font-style: italic;
+  /*line-height: 2;*/
 }
 
 .clearfix {
