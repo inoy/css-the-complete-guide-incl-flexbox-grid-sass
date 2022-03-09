@@ -69,6 +69,8 @@ main {
   font-weight: bold;
   font-style: italic;
   /*line-height: 2;*/
+  /*text-decoration: underline dotted red;*/
+  /*text-shadow: 2px 2px 7px gray;*/
 }
 
 .clearfix {
