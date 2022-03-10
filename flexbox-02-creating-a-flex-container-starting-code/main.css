@@ -16,11 +16,14 @@ body {
 
 .flex-container {
   background: white;
+  height: 1300px;
   padding: 10px;
   border: 5px solid black;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-1 {
