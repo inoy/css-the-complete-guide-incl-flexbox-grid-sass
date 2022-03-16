@@ -3,14 +3,21 @@
   display: grid;
   height: 400px;
   /*grid-template-columns: 200px 5rem 20% auto;*/
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(40px, 200px) [row-2-end row-3-start] 150px [row-3-end];
+  /*grid-template-columns: repeat(4, 25%);*/
+  /*grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(40px, 200px) [row-2-end row-3-start] 150px [row-3-end];*/
   /*grid-row-gap: 10px;*/
   /*grid-column-gap: 20px;*/
-  grid-gap: 10px 20px;
-  grid-template-areas: "header header header header"
-                       "side side main main"
-                       "footer footer footer footer";
+  /*grid-gap: 10px 20px;*/
+  /*grid-template-areas: "header header header header"*/
+  /*                     "side side main main"*/
+  /*                     "footer footer footer footer";*/
+  grid: " header header header header " 5rem
+        " ...... ...... ...... ...... " 20px
+        " side   side   main   main   " minmax(40px, 200px)
+        " ...... ...... ...... ...... " 20px
+        " footer footer footer footer " 150px
+        / 25%    25%    25%   25%;
+
 }
 
 .el1 {
