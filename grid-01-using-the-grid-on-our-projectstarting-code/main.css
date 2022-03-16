@@ -17,7 +17,8 @@
         " ...... ...... ...... ...... " 20px
         " footer footer footer footer " 150px
         / 25%    25%    25%   25%;
-
+  /*justify-items: stretch;*/
+  /*align-items: stretch;*/
 }
 
 .el1 {
