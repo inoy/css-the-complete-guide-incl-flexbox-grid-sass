@@ -1,10 +1,13 @@
 .container {
   margin: 20px;
   display: grid;
-  height: 500px;
+  height: 400px;
   /*grid-template-columns: 200px 5rem 20% auto;*/
   grid-template-columns: repeat(4, 25%);
-  grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(10px, 200px) [row-2-end row-3-start] 400px [row-3-end];
+  grid-template-rows: [row-1-start] 5rem [row-1-end row-2-start] minmax(40px, 200px) [row-2-end row-3-start] 150px [row-3-end];
+  /*grid-row-gap: 10px;*/
+  /*grid-column-gap: 20px;*/
+  grid-gap: 10px 20px;
 }
 
 .el1 {
