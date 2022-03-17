@@ -9,10 +9,6 @@
   font-weight: 700;
 }
 
-main {
-  padding-top: 2rem;
-}
-
 .background {
   background: url("../images/plans-background.jpg") center/cover;
   filter: grayscale(40%);
