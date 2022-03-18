@@ -1,5 +1,4 @@
 @import "typography.css";
-
 html {
   font-size: 94.75%;
 }
@@ -63,12 +62,10 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .documentation-links li {
   margin: 0.2rem 0;
   background: white;
 }
-
 .documentation-links .documentation-link {
   text-decoration: none;
   color: #521751;
@@ -76,7 +73,6 @@ body {
   padding: 0.2rem;
   border: 0.05rem solid #521751;
 }
-
 .documentation-links .documentation-link:hover,
 .documentation-links .documentation-link:active {
   color: white;
@@ -94,7 +90,9 @@ body {
   }
 
   .sass-introduction,
-  .sass-details {
+.sass-details {
     width: 30rem;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
